@@ -64,15 +64,15 @@ class App extends React.Component {
               switch (args.data) {
                 case "main_nav_menu_cliked":
                   this.setState({ title: "Holixa SMS" });
-                  this.setState({ link: "hhttps://sms.holixa.com/" });
+                  this.setState({ link: "https://sms.holixa.com/" });
                   break;
                 case "submenu_1_clicked":
                   this.setState({ title: "Holixa SMS" });
-                  this.setState({ link: "hhttps://sms.holixa.com/" });
+                  this.setState({ link: "https://sms.holixa.com/" });
                   break;
                 case "submenu_2_clicked":
                   this.setState({ title: "Holixa SMS" });
-                  this.setState({ link: "hhttps://sms.holixa.com/" });
+                  this.setState({ link: "https://sms.holixa.com/" });
                 break;
               }
               break;
