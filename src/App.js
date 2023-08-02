@@ -41,7 +41,7 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      mainMenu: { title: "Holixa SMS", icon: "hhttps://static.tpionet.com/HOLIXA4CONNECT/logo.png", command: "main_nav_menu_cliked", },
+      mainMenu: { title: "Holixa SMS", icon: "https://static.tpionet.com/HOLIXA4CONNECT/logo.png", command: "main_nav_menu_cliked", },
       /*subMenuItems: [
       { title: "Projet", icon: `https://images2.imgbox.com/49/1e/Nuz67Liq_o.png`, command: "submenu_1_clicked", },
       { title: "Data", icon: `https://images2.imgbox.com/49/1e/Nuz67Liq_o.png`, command: "submenu_2_clicked", },
@@ -64,15 +64,15 @@ class App extends React.Component {
               switch (args.data) {
                 case "main_nav_menu_cliked":
                   this.setState({ title: "Holixa SMS" });
-                  this.setState({ link: "hhttps://sms.holixa.com/projects/17PJKmCViX8" });
+                  this.setState({ link: "hhttps://sms.holixa.com/" });
                   break;
                 case "submenu_1_clicked":
                   this.setState({ title: "Holixa SMS" });
-                  this.setState({ link: "hhttps://sms.holixa.com/projects/17PJKmCViX8" });
+                  this.setState({ link: "hhttps://sms.holixa.com/" });
                   break;
                 case "submenu_2_clicked":
                   this.setState({ title: "Holixa SMS" });
-                  this.setState({ link: "hhttps://sms.holixa.com/projects/17PJKmCViX8" });
+                  this.setState({ link: "hhttps://sms.holixa.com/" });
                 break;
               }
               break;
